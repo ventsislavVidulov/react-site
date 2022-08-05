@@ -14,10 +14,11 @@ body {
 
 header,
 footer {
-    background-color: #1b68ec;
-    width: 100%;
+    background-color: #ec751b;
+    width: 50%;
     overflow: hidden;
     color: white;
+    margin: 0px auto;
 }
 
 .home {
