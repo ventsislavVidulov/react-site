@@ -15,15 +15,15 @@ const Header = () => {
             </h1>
             <nav>
                 {/* {user.email && <span>{user.email}</span>} */}
-                <Link to="/catalog">All games</Link>
+                <Link to="/jokes">JOKES</Link>
                 {/* {user.email */}
                 <div id="user">
-                    <Link to="/create">Create Game</Link>
-                    <Link to="/logout">Logout</Link>
+                    <Link to="/create">CREATE JOKE</Link>
+                    <Link to="/logout">LOGOUT</Link>
                 </div>
                 <div id="guest">
-                    <Link to="/login">Login</Link>
-                    <Link to="/register">Register</Link>
+                    <Link to="/login">LOGIN</Link>
+                    <Link to="/register">REGISTER</Link>
                 </div>
                 {/* } */}
             </nav>
