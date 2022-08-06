@@ -10,7 +10,7 @@ const Header = () => {
         <header>
             <h1>
                 <Link className="home" to="/">
-                    GamesPlay
+                    HAVE FUN :)
                 </Link>
             </h1>
             <nav>

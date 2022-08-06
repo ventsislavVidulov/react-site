@@ -14,8 +14,8 @@ body {
 
 header,
 footer {
-    background-color: #ec751b;
-    width: 50%;
+    /* background-color: #ec751b; */
+    width: 100%;
     overflow: hidden;
     color: white;
     margin: 0px auto;
@@ -29,21 +29,28 @@ footer {
 header {
     position: relative;
     padding: 10px;
+    border: 1px solid black;
 }
 
 header h1 {
     display: inline-block;
-    background-color: #29303c;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(85, 195, 255);
     margin-bottom: auto;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 header nav {
-    font-size: auto;
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     right: 0;
-    bottom: 8px;
+    bottom: 30%;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: rgb(85, 195, 255);
 }
 
 header nav>* {
