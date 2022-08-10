@@ -33,14 +33,13 @@ const Register = () => {
         <section id="register-page" className="content auth">
             <form id="register" onSubmit={onSubmit}>
                 <div className="container">
-                    <div className="brand-logo" />
                     <h1>Register</h1>
                     <label htmlFor="email">Email:</label>
                     <input
                         type="email"
                         id="email"
                         name="email"
-                        placeholder="maria@email.com"
+                        placeholder="something@something.com"
                     />
                     <label htmlFor="pass">Password:</label>
                     <input type="password" name="password" id="register-password" />
