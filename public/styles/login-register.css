@@ -14,10 +14,11 @@
     width: 650px;
     height: auto;
     border-radius: 20px;
-    padding: 40px;
+    padding: 15px;
     box-sizing: border-box;
-    background: #3e4443;
-    box-shadow: 0px 0px 32px 0px #49535e, -14px -14px 20px #191c21;
+    border: 3px solid black;
+    margin-top: 20px;
+    color:rgb(85, 195, 255);
 }
 
 .container {
@@ -103,7 +104,6 @@ label[for="terms"]>input {
     font-size: 26px;
     cursor: pointer;
     font-weight: 900;
-    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
     transition: 0.5s;
 }
 
