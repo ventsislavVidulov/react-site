@@ -8,6 +8,7 @@
     border: 3px solid black;
     margin-top: 20px;
     color:rgb(85, 195, 255);
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -21,6 +22,7 @@
     border: 3px solid black;
     margin-top: 20px;
     color:rgb(85, 195, 255);
+    background-color: rgb(255, 255, 255);
 }
 
 .container {
@@ -34,7 +36,7 @@
     margin: auto;
     border-radius: 50%;
     box-sizing: border-box;
-    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+    box-shadow: 7px 7px 10px #c2e0ff, -7px -7px 10px white;
 }
 
 .container>h1 {
@@ -46,6 +48,7 @@
     letter-spacing: 1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 17px;
+    color:rgb(85, 195, 255);
 }
 
 label,
@@ -56,6 +59,7 @@ input {
     border: none;
     outline: none;
     box-sizing: border-box;
+
 }
 
 label {
@@ -64,6 +68,7 @@ label {
     color: white;
     margin-top: 13px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(85, 195, 255);
 }
 
 label:nth-of-type(2) {
@@ -90,7 +95,7 @@ input[type="email"] {
     margin-top: 10px;
     font-size: 24px;
     border-radius: 50px;
-    box-shadow: inset 6px 6px 6px #c0c2c5, inset -6px -6px 6px white;
+    box-shadow: inset 6px 6px 6px #c3dbff, inset -6px -6px 6px white;
 }
 
 label[for="terms"]>input {
@@ -107,6 +112,8 @@ label[for="terms"]>input {
     cursor: pointer;
     font-weight: 900;
     transition: 0.5s;
+    background-color:rgb(85, 195, 255);
+    
 }
 
 .btn.submit:hover {
