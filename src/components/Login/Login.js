@@ -37,7 +37,7 @@ const Login = () => {
                         type="email"
                         id="email"
                         name="email"
-                        placeholder="Sokka@gmail.com"
+                        placeholder="something@something.com"
                     />
                     <label htmlFor="login-pass">Password:</label>
                     <input type="password" id="login-password" name="password" />
